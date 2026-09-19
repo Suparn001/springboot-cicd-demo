@@ -53,7 +53,7 @@ pipeline {
                 sh '''
                     set -e
 
-                    DEPLOY_ROOT=/opt/cicd-demo/spring
+                    DEPLOY_ROOT=/opt/cicd-demo/spring-boot
                     RELEASE_DIR="$DEPLOY_ROOT/releases/$BUILD_NUMBER"
 
                     rm -rf "$RELEASE_DIR"
